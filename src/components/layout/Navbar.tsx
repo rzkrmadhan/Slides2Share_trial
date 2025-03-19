@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-bold">S</span>
           </div>
-          <span className="font-medium text-xl">Slides</span>
+          <span className="font-medium text-xl">Slides2Share</span>
         </Link>
         
         <nav className="hidden md:flex items-center space-x-1">
@@ -62,3 +62,4 @@ const NavLink = ({ to, active, children }: NavLinkProps) => {
 };
 
 export default Navbar;
+
